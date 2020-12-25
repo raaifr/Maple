@@ -1,0 +1,54 @@
+﻿.fa {
+    padding-right: 5px;
+}
+
+.blackiconcolor {
+    color: #4d4d4d;
+}
+
+.fa-facebook {
+    background-color: white;
+    color: #02002d;
+}
+
+    .fa-facebook.hover fa-facebook:hover {
+        opacity: 0.7;
+    }
+
+.fa-instagram {
+    background-color: white;
+    color: #02002d;
+    /*
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        */
+}
+
+    .fa-instagram.hover fa-instagram:hover {
+        opacity: 0.7;
+    }
+
+.fa-twitter {
+    background-color: white;
+    color: #02002d;
+}
+
+    .fa-twitter.hover fa-twitter:hover {
+        opacity: 0.7;
+    }
+
+.donate {
+    background-color: #feba00;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+    .donate:hover {
+        background-color: #ffd155;
+    }

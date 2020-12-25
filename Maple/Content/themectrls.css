@@ -1,0 +1,36 @@
+﻿.btn-maple {
+    color: #fff !important;
+    background-color: #02002d !important;
+    border-color: #02002d;
+}
+
+    .btn-maple:hover {
+        color: #fff;
+        background-color: #120f4e;
+        border-color: #030139;
+    }
+
+    .btn-maple:focus, .btn-maple.focus {
+        color: #fff;
+        background-color: #090641;
+        border-color: #030139;
+        box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    }
+
+    .btn-maple.disabled, .btn-maple:disabled {
+        color: #fff;
+        background-color: #02002d;
+        border-color: #02002d;
+    }
+
+    .btn-maple:not(:disabled):not(.disabled):active, .btn-maple:not(:disabled):not(.disabled).active,
+    .show > .btn-maple.dropdown-toggle {
+        color: #fff;
+        background-color: #030139;
+        border-color: #1c1b3d;
+    }
+
+        .btn-maple:not(:disabled):not(.disabled):active:focus, .btn-maple:not(:disabled):not(.disabled).active:focus,
+        .show > .btn-maple.dropdown-toggle:focus {
+            box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+        }
